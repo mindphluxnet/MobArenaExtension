@@ -41,7 +41,7 @@ public class MythicMobCreature extends MACreature {
         ignoreException(() -> MYTHIC_ENTITIES.put(MythicEntityType.BABY_ZOMBIE.name(), EntityType.ZOMBIE));
         ignoreException(() -> MYTHIC_ENTITIES.put(MythicEntityType.BABY_ZOMBIE_VILLAGER.name(), EntityType.ZOMBIE_VILLAGER));
         ignoreException(() -> MYTHIC_ENTITIES.put(MythicEntityType.ZOMBIFIED_PIGLIN_VILLAGER.name(), EntityType.ZOMBIFIED_PIGLIN));
-        ignoreException(() -> MYTHIC_ENTITIES.put(MythicEntityType.VINDIOCELOTOR.name(), EntityType.VINDICATOR));
+        ignoreException(() -> MYTHIC_ENTITIES.put(MythicEntityType.VINDICATOR.name(), EntityType.VINDICATOR));
         /**
          * CUSTOM
          * ITEM
